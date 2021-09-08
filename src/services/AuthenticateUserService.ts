@@ -1,4 +1,4 @@
-import { User } from "../database/models/user.model";
+import { User } from "../models/UserModel";
 import { AppError } from "../errors/AppError";
 import { compare } from "bcryptjs";
 import { sign } from "jsonwebtoken";

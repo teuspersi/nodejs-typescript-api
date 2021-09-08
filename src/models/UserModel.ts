@@ -1,6 +1,6 @@
-import { db } from "../db";
+import { db } from "../database/db";
 import Sequelize, { DataTypes, Model } from "sequelize";
-import { Post } from "./post.model";
+import { Post } from "./PostModel";
 
 export class User extends Model {
   id: string;

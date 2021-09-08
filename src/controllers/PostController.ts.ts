@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 import { Request, Response } from "express";
-import PostService from "../services/post.services";
+import PostService from "../services/PostService";
 
 class PostController {
   async create(request: Request, response: Response) {

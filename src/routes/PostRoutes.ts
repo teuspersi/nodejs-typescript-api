@@ -1,6 +1,6 @@
 import { Router } from "express";
-import PostController from "../controllers/post.controller";
-import { ensureAuthenticated } from "../middlewares/ensure-authenticated";
+import PostController from "../controllers/PostController.ts";
+import { ensureAuthenticated } from "../middlewares/ensureAuthenticated";
 
 const PostRouter = Router();
 

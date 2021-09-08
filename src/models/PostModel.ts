@@ -1,4 +1,4 @@
-import { db } from "../db";
+import { db } from "../database/db";
 import Sequelize, { DataTypes, Model } from "sequelize";
 
 export class Post extends Model {

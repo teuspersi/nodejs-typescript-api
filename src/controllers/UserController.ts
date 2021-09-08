@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 import { Request, Response } from "express";
-import UserService from "../services/user.service";
+import UserService from "../services/UserService";
 import { verify } from "jsonwebtoken";
 import authConfig from "../config/auth";
 import { AppError } from "../errors/AppError";

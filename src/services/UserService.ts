@@ -1,7 +1,7 @@
-import { User } from "../database/models/user.model";
+import { User } from "../models/UserModel";
 import { hash } from "bcryptjs";
 import { AppError } from "../errors/AppError";
-import { Post } from "../database/models/post.model";
+import { Post } from "../models/PostModel";
 
 class UserService {
   async findAll() {

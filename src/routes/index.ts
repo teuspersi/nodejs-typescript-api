@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { UserRouter } from "./user.routes";
-import { PostRouter } from "./post.routes";
-import { AuthenticateRouter } from "./authenticate-user.routes";
+import { UserRouter } from "./UserRoutes";
+import { PostRouter } from "./PostRoutes";
+import { AuthenticateRouter } from "./AuthenticateUserRoutes";
 
 const router = Router();
 

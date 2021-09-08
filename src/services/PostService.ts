@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
-import { Post } from "../database/models/post.model";
-import { User } from "../database/models/user.model";
+import { Post } from "../models/PostModel";
+import { User } from "../models/UserModel";
 
 class PostServices {
   async create(user_id, title, content) {
